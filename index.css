@@ -1,0 +1,153 @@
+
+html{
+    background-image: url('Images/gatis-marcinkevics-a5uptAdUmjE-unsplash.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    opacity: 0.9;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+   }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #DD571C;
+   
+    text-align: center;
+    padding: 14px 150px;
+    text-decoration:none;
+    font-size: medium;
+    font-size: large;
+    font-weight:900;
+    transition-duration: 0.8s;
+    
+    
+  }
+
+  
+
+  
+  li a:hover {
+    text-decoration:underline;
+    text-decoration-color: azure;
+    font-size: larger;
+    
+   
+    }
+    li a h1{
+      margin-top: -10px;
+      text-decoration: wavy;
+      color: #ed820e;
+    }
+   
+.Info{
+  padding: 20px;
+  background: rgb(255, 253, 253,.3);
+  margin-top: 10px;
+  margin-left: 55px;
+  width: 500px;
+  height: 800px;
+  font-size: 25px ;
+  border-radius: 5px;
+  
+ 
+
+  
+  
+}
+.Info p{
+  float: left;
+  transition-duration: 0.7s;
+  color: black;
+}
+
+.Info img{
+  padding-left: 230px;
+  margin-top: -30px;
+}
+.imgpho{
+  width: 900px;
+  height: 900px;
+  margin-left: 25%;
+  margin-top: -45%;
+
+  position: absolute;
+  background-image: url('Images/mobile-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+ 
+}
+.imgpho h3{
+  margin-left: 45%;
+  margin-right: 44%;
+   
+  margin-top: 25%;
+  color: #ed820e;
+  background-color: white;
+}
+.imgpho input{
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  background: transparent;
+
+  margin-left: 35%;
+  margin-top: 20px;
+width: 250px;
+background-color: white;
+  height: 30px;
+  margin-bottom: 10px;
+
+}
+.imgpho button{
+  height: 40px;
+  width: 100px;
+  background-color: #DD571C;
+  margin-left: 43.5%;
+  margin-top: 30px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+#check{
+  width: 17px;
+  height: 17px;
+  position:  absolute;
+  margin-left: -0.001%;
+  margin-top: 25px;
+}
+.imgpho button {
+  text-decoration: none;
+  color: white;
+}
+
+#person{
+  position: absolute;
+  margin-left: 65%;
+  margin-top: -43%;
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+
+.persone p{
+position: absolute;
+margin-left: 77.5%;
+font-weight: bold;
+  margin-top: -2.6%;
+}
+
+

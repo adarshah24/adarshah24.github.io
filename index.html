@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+   
+ 
+    <title>Know-Me</title>
+</head>
+<body>
+     <ul>
+        <li><a href="index.html"><h1 id="nodec0">AShah</h1></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Pages/Conab.html">Contact</a></li>
+       
+        <li><a href="Pages/Conab.html">About</a></li>
+        
+    </ul>
+<br><br><br><br><br>
+    <div class="Info">
+<p>
+My name is Adarsh Shah, and I am a beginner app developer with a passion for creating innovative and user-friendly mobile applications. As a self-taught developer, I have spent countless hours learning and experimenting with different programming languages and app development tools to improve my skills and knowledge.
+
+My journey as an app developer started as a hobby, but over time, it has become a true passion of mine. I enjoy the challenge of solving complex problems and finding creative ways to improve the user experience of my apps.
+
+While I am still relatively new to app development, I have already created seome apps . I am always looking for ways to improve my skills and learn new techniques to take my apps to the next level.
+
+I am excited to continue developing my skills and creating innovative apps that can make a positive impact on people's lives. My goal is to become an experienced and highly skilled app developer who can create apps that are both functional and enjoyable to use.
+
+</p>
+<img src="Images/dribbble.gif" alt="" height="150px" width="250px">
+
+    </div>
+
+   <!-- <img src="Images/pngtree-new-transparent-mobile-mockup-png-image-and-vector-png-image_2632149-removebg-preview.png" alt="image not found" class="imgpho"height="900px"width="900px">-->
+
+    <form class="imgpho" id="circle" action="Pages/Form.html">
+        <h3>Visit-it-Last</h3>
+<input type="text" placeholder="Name" required id="name"><br> 
+<input type="email" placeholder="Email" required id="eemail"><br>
+<input type="password" placeholder="Password" id="myInput" required><input type="checkbox" onclick="myFunction()" id="check"><br>
+<button onclick="hello()" id="nextpage" type="submit">Enter</button>
+
+
+    </form>
+
+<div class="persone"><img src="https://images.unsplash.com/photo-1587592219824-e66dca90c3a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt=" not found" height="750px" width="500px" id="person">
+  <p>It's Not Me</p></div>
+    
+    <script>
+       
+       function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+
+  function hello(){
+    const fname = document.getElementById("name").value;
+    
+    if(fname==""){
+      alert("Enter name");
+    }
+    
+    else{
+      localStorage.setItem('f-name',fname);
+     window.location.href="Pages/Form.html";
+     
+
+    }
+   
+
+     
+    
+}
+
+
+    </script>
+    
+</body>
+</html>
