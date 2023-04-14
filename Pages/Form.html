@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Thank-You</title>
+    <style>
+        #countdown{
+            font-family: 'Poppins', sans-serif;
+            color: yellowgreen;
+            font-size: 200px;
+            text-align: center;
+            margin-top: 19%;
+            position: relative;
+        }
+        #thanks{
+            
+            font-family: 'Poppins', sans-serif;
+            font-size: 100px;
+            text-align: center;
+            margin-top: 19%;
+            visibility: hidden;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            font-weight: bold;
+           
+            
+}
+body{
+ background-color: black;
+
+}
+
+@keyframes example {
+    0%   {color: #F7C8E0;}
+  25%  {color: #DFFFD8;}
+  50%  {color: #B4E4FF;}
+  100% {color: #95BDFF;}
+}
+
+    </style>
+</head>
+<body>
+    <div id="countdown"></div>
+
+    <div id="thanks"></div>
+    <script >
+            
+
+var timeleft =5;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+
+    document.getElementById("countdown").innerHTML = "";
+    document.getElementById("thanks").style.visibility="visible";
+   const finame=localStorage.getItem('f-name');
+
+         
+        document.getElementById("thanks").innerHTML = "Thank You To Visit My Website \n"+finame.toString();
+    
+    
+    
+  } else {
+    document.getElementById("countdown").innerHTML = timeleft;
+    
+  }
+  timeleft -= 1;
+}, 1000);
+
+
+      </script>
+
+</body>
+</html>

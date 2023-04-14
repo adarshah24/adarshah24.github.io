@@ -1,0 +1,29 @@
+body{
+    background-image: url("D:/Portfolio/Images/jen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tansbox{
+    color: whitesmoke;
+    width: 90%;
+    height: 90%;
+    background: rgb(255, 253, 253,.2);
+    text-align: center;
+    padding-bottom: -10%;
+    margin-left: 95px;
+    border-radius: 10px;
+    
+    font-family: 'Poppins', sans-serif;
+    border-color: rgb(127, 218, 23);
+    border-style:outset;
+    
+
+}
+.tansbox p{
+    font-weight: bold;
+}
+.tansbox h2{
+    font-weight: bolder;
+}
+
